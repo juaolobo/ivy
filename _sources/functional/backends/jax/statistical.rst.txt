@@ -1,0 +1,22 @@
+Statistical
+===========
+
+.. automodule:: ivy.functional.backends.jax.statistical
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: Statistical
+
+   statistical/min.rst
+   statistical/sum.rst
+   statistical/mean.rst
+   statistical/var.rst
+   statistical/prod.rst
+   statistical/max.rst
+   statistical/einsum.rst
+

@@ -1,0 +1,23 @@
+Statistical
+===========
+
+.. automodule:: ivy.functional.backends.mxnet.statistical
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: Statistical
+
+   statistical/sum.rst
+   statistical/prod.rst
+   statistical/mean.rst
+   statistical/var.rst
+   statistical/std.rst
+   statistical/min.rst
+   statistical/max.rst
+   statistical/einsum.rst
+

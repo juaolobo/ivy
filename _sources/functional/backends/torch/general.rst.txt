@@ -1,0 +1,31 @@
+General
+=======
+
+.. automodule:: ivy.functional.backends.torch.general
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: General
+
+   general/is_array.rst
+   general/copy_array.rst
+   general/array_equal.rst
+   general/to_numpy.rst
+   general/to_scalar.rst
+   general/to_list.rst
+   general/floormod.rst
+   general/unstack.rst
+   general/container_types.rst
+   general/inplace_update.rst
+   general/inplace_decrement.rst
+   general/inplace_increment.rst
+   general/cumsum.rst
+   general/cumprod.rst
+   general/scatter_flat.rst
+   general/scatter_nd.rst
+

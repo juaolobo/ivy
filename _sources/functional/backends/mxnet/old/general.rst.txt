@@ -1,0 +1,40 @@
+General
+=======
+
+.. automodule:: ivy.functional.backends.mxnet.old.general
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: General
+
+   general/dtype_bits.rst
+   general/clip.rst
+   general/abs.rst
+   general/cast.rst
+   general/arange.rst
+   general/concatenate.rst
+   general/stack.rst
+   general/transpose.rst
+   general/where.rst
+   general/indices_where.rst
+   general/broadcast_to.rst
+   general/squeeze.rst
+   general/zeros_like.rst
+   general/full.rst
+   general/cross.rst
+   general/matmul.rst
+   general/identity.rst
+   general/meshgrid.rst
+   general/gather.rst
+   general/gather_nd.rst
+   general/linear_resample.rst
+   general/dtype.rst
+   general/dtype_to_str.rst
+   general/dtype_from_str.rst
+   general/compile.rst
+

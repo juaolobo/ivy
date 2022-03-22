@@ -1,0 +1,15 @@
+Reductions
+==========
+
+.. automodule:: ivy.functional.backends.tensorflow.old.reductions
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: Reductions
+
+

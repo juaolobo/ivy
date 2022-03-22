@@ -1,0 +1,23 @@
+General
+=======
+
+.. automodule:: ivy.functional.backends.numpy.general
+    :members:
+    :special-members: __init__
+    :undoc-members:
+    :show-inheritance:
+
+
+.. toctree::
+   :maxdepth: -1
+   :caption: General
+
+   general/inplace_update.rst
+   general/is_array.rst
+   general/unstack.rst
+   general/inplace_decrement.rst
+   general/inplace_increment.rst
+   general/cumprod.rst
+   general/scatter_flat.rst
+   general/scatter_nd.rst
+
