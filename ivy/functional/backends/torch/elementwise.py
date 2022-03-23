@@ -7,6 +7,10 @@ import typing
 # local
 import ivy
 
+def exp(x: torch.Tensor)\
+        -> torch.Tensor:
+    return torch.exp(x)
+
 def expm1(x: Tensor)\
         -> Tensor:
     return torch.expm1(x)

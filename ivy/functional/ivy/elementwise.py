@@ -9,6 +9,30 @@ from ivy.framework_handler import current_framework as _cur_framework
 # Array API Standard #
 # -------------------#
 
+def exp(x: Union[ivy.Array, ivy.NativeArray])\
+        -> ivy.Array:
+    """
+    Calculates an implementation-dependent approximation to the exponential function, having domain [-infinity, +infinity] and codomain [-1, +infinity], for each element x_i of the input array x.
+    (e raised to the power of x_i, where e is the base of the natural logarithm).
+
+    **Special cases**
+    For floating-point operands,
+    - If x_i is NaN, the result is NaN.
+    - If x_i is +0, the result is +0.
+    - If x_i is -0, the result is -0.
+    - If x_i is +infinity, the result is +infinity.
+    - If x_i is -infinity, the result is -1.
+    Parameters
+    ----------
+    x: array
+        input array. Should have a numeric data type.
+    Returns
+    -------
+    out: array
+        an array containing the evaluated exponential function result for each element in x. The returned array must have a floating-point data type determined by :ref:`type-promotion`.
+    """
+    return _cur_framework(x).expm1(x)
+
 def expm1(x: Union[ivy.Array, ivy.NativeArray])\
         -> ivy.Array:
     """

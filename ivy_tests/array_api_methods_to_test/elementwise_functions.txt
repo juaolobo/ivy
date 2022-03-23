@@ -18,7 +18,7 @@ cos
 cosh
 #divide
 #equal
-#exp
+exp
 expm1
 #floor # depends on: remainder
 #floor_divide
