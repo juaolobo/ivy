@@ -97,7 +97,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../creation.html">Creation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data_type.html">Data type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../device.html">Device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../elementwise.html">Elementwise</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../general.html">General</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../gradients.html">Gradients</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="with_grads.html">with_grads</a></li>
@@ -223,25 +222,6 @@
             
   <div class="section" id="stop-gradient">
 <h1>stop_gradient<a class="headerlink" href="#stop-gradient" title="Permalink to this headline">¶</a></h1>
-<dl class="py function">
-<dt id="ivy.functional.ivy.gradients.stop_gradient">
-<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">stop_gradient</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">preserve_type</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/ivy/functional/ivy/gradients.html#stop_gradient"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.gradients.stop_gradient" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stops gradient computation.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>x</strong> (<em>array</em>) – Array for which to stop the gradient.</p></li>
-<li><p><strong>preserve_type</strong> – Whether to preserve the input type (ivy.Variable or ivy.Array),
-otherwise an array is always returned. Default is True.</p></li>
-<li><p><strong>preserve_type</strong> – bool, optional</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The same array x, but with no gradient information.</p>
-</dd>
-</dl>
-</dd></dl>
-
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><strong>Supported Frameworks:</strong></div>

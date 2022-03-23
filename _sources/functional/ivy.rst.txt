@@ -12,7 +12,6 @@
    ivy/creation.rst
    ivy/data_type.rst
    ivy/device.rst
-   ivy/elementwise.rst
    ivy/general.rst
    ivy/gradients.rst
    ivy/image.rst

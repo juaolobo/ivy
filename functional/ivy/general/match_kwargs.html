@@ -97,7 +97,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../creation.html">Creation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data_type.html">Data type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../device.html">Device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../elementwise.html">Elementwise</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../general.html">General</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="get_referrers_recursive.html">get_referrers_recursive</a></li>
 <li class="toctree-l2"><a class="reference internal" href="is_array.html">is_array</a></li>
@@ -263,24 +262,6 @@
             
   <div class="section" id="match-kwargs">
 <h1>match_kwargs<a class="headerlink" href="#match-kwargs" title="Permalink to this headline">¶</a></h1>
-<dl class="py function">
-<dt id="ivy.functional.ivy.general.match_kwargs">
-<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">match_kwargs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">kwargs</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">receivers</span></em>, <em class="sig-param"><span class="n">allow_duplicates</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../../_modules/ivy/functional/ivy/general.html#match_kwargs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.general.match_kwargs" title="Permalink to this definition">¶</a></dt>
-<dd><p>Match keyword arguments to either class or function receivers.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>kwargs</strong> (<em>dict of any</em>) – Keyword arguments to match.</p></li>
-<li><p><strong>receivers</strong> (<em>callables and/or classes</em>) – Functions and/or classes to match the keyword arguments to.</p></li>
-<li><p><strong>allow_duplicates</strong> (<em>bool</em><em>, </em><em>optional</em>) – Whether to allow one keyword argument to be used for multiple receivers. Default is False.</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Sequence of keyword arguments split as best as possible.</p>
-</dd>
-</dl>
-</dd></dl>
-
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><strong>Supported Frameworks:</strong></div>
