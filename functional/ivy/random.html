@@ -35,7 +35,9 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="random_uniform" href="random/random_uniform.html" />
+    <link rel="prev" title="layer_norm" href="norms/layer_norm.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -79,32 +81,47 @@
               
             
             
-              <p class="caption"><span class="caption-text">Guides</span></p>
+              <p class="caption"><span class="caption-text">Overview</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../why_ivy.html">Why Ivy?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../using_ivy.html">Using Ivy</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../training_a_network.html">Training a Network</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing to Ivy</a></li>
-</ul>
-<p class="caption"><span class="caption-text">Array</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../array/array_api.html">Array api</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/conversions.html">Conversions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/device.html">Device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/general.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/gradients.html">Gradients</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/image.html">Image</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/linalg.html">Linalg</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/logic.html">Logic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/math.html">Math</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/meta.html">Meta</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/random.html">Random</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../array/reductions.html">Reductions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../background.html">Background</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../design.html">Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extensions.html">Extensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roadmap.html">Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Functional</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../backends.html">Backends</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../ivy.html">Ivy</a></li>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="activations.html">Activations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compilation.html">Compilation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="constants.html">Constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="creation.html">Creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_type.html">Data type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="device.html">Device</a></li>
+<li class="toctree-l1"><a class="reference internal" href="elementwise.html">Elementwise</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gradients.html">Gradients</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image.html">Image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linear_algebra.html">Linear algebra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="losses.html">Losses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="manipulation.html">Manipulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="meta.html">Meta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nest.html">Nest</a></li>
+<li class="toctree-l1"><a class="reference internal" href="norms.html">Norms</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Random</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="random/random_uniform.html">random_uniform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="random/random_normal.html">random_normal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="random/multinomial.html">multinomial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="random/randint.html">randint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="random/seed.html">seed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="random/shuffle.html">shuffle</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set.html">Set</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical.html">Statistical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utility.html">Utility</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Stateful</span></p>
 <ul>
@@ -173,6 +190,8 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
+          <li><a href="../ivy.html">&lt;no title&gt;</a> &raquo;</li>
+        
       <li>Random</li>
     
     
@@ -197,7 +216,7 @@
 <p>Collection of random Ivy functions</p>
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.multinomial">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">multinomial</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">population_size</span></em>, <em class="sig-param"><span class="n">num_samples</span></em>, <em class="sig-param"><span class="n">batch_size</span></em>, <em class="sig-param"><span class="n">probs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">replace</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#multinomial"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.multinomial" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">multinomial</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">population_size</span></em>, <em class="sig-param"><span class="n">num_samples</span></em>, <em class="sig-param"><span class="n">batch_size</span></em>, <em class="sig-param"><span class="n">probs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">replace</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#multinomial"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.multinomial" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws samples from a multinomial distribution. Specifcally, returns a tensor where each row contains num_samples
 indices sampled from the multinomial probability distribution located in the corresponding row of tensor input.</p>
 <dl class="field-list simple">
@@ -220,7 +239,7 @@ default is uniform <em>[batch_shape, num_classes]</em></p></li>
 
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.randint">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">randint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">low</span></em>, <em class="sig-param"><span class="n">high</span></em>, <em class="sig-param"><span class="n">shape</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#randint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.randint" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">randint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">low</span></em>, <em class="sig-param"><span class="n">high</span></em>, <em class="sig-param"><span class="n">shape</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#randint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.randint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns a tensor filled with random integers generated uniformly between low (inclusive) and high (exclusive).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -239,7 +258,7 @@ default is uniform <em>[batch_shape, num_classes]</em></p></li>
 
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.random_normal">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">random_normal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mean</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">std</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#random_normal"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.random_normal" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">random_normal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mean</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">std</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#random_normal"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.random_normal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws samples from a normal distribution.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -259,7 +278,7 @@ If size is None (default), a single value is returned.</p></li>
 
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.random_uniform">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">random_uniform</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">low</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">high</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#random_uniform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.random_uniform" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">random_uniform</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">low</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">high</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">dev</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#random_uniform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.random_uniform" title="Permalink to this definition">¶</a></dt>
 <dd><p>Draws samples from a uniform distribution.
 Samples are uniformly distributed over the half-open interval [low, high) (includes low, but excludes high).
 In other words, any value within the given interval is equally likely to be drawn by uniform.</p>
@@ -283,7 +302,7 @@ If size is None (default), a single value is returned.</p></li>
 
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.seed">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">seed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">seed_value</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#seed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.seed" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">seed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">seed_value</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#seed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.seed" title="Permalink to this definition">¶</a></dt>
 <dd><p>Sets the seed for random number generation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -294,7 +313,7 @@ If size is None (default), a single value is returned.</p></li>
 
 <dl class="py function">
 <dt id="ivy.functional.ivy.random.shuffle">
-<code class="sig-prename descclassname">ivy.functional.ivy.random.</code><code class="sig-name descname">shuffle</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#shuffle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.shuffle" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">ivy.</code><code class="sig-name descname">shuffle</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/ivy/functional/ivy/random.html#shuffle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.random.shuffle" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shuffles the given array along axis 0.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -307,15 +326,6 @@ If size is None (default), a single value is returned.</p></li>
 </dd></dl>
 
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Random</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="random/random_uniform.html">random_uniform</a></li>
-<li class="toctree-l1"><a class="reference internal" href="random/random_normal.html">random_normal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="random/multinomial.html">multinomial</a></li>
-<li class="toctree-l1"><a class="reference internal" href="random/randint.html">randint</a></li>
-<li class="toctree-l1"><a class="reference internal" href="random/seed.html">seed</a></li>
-<li class="toctree-l1"><a class="reference internal" href="random/shuffle.html">shuffle</a></li>
-</ul>
 </div>
 </div>
 
@@ -324,6 +334,15 @@ If size is None (default), a single value is returned.</p></li>
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="random/random_uniform.html" class="btn btn-neutral float-right" title="random_uniform" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="norms/layer_norm.html" class="btn btn-neutral float-left" title="layer_norm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
