@@ -51,5 +51,6 @@ Elementwise
    elementwise/bitwise_or.rst
    elementwise/abs.rst
    elementwise/logaddexp.rst
+   elementwise/atan.rst
    elementwise/erf.rst
 
