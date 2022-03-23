@@ -47,6 +47,7 @@ Elementwise
    elementwise/sinh.rst
    elementwise/positive.rst
    elementwise/square.rst
+   elementwise/remainder.rst
    elementwise/round.rst
    elementwise/bitwise_or.rst
    elementwise/abs.rst
