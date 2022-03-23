@@ -9,9 +9,11 @@ Linear algebra
 
 
 .. toctree::
+   :hidden:
    :maxdepth: -1
    :caption: Linear algebra
 
+   linear_algebra/eigvalsh.rst
    linear_algebra/vector_norm.rst
    linear_algebra/diagonal.rst
 

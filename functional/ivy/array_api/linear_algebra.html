@@ -225,6 +225,22 @@ Defaults to second axis (1).</p>
 </dd></dl>
 
 <dl class="py function">
+<dt id="ivy.functional.ivy.array_api.linear_algebra.eigvalsh">
+<code class="sig-prename descclassname">ivy.functional.ivy.array_api.linear_algebra.</code><code class="sig-name descname">eigvalsh</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span></span></em>, <em class="sig-param"><span class="o">/</span></em><span class="sig-paren">)</span> &#x2192; ivy.array.Array<a class="reference internal" href="../../../_modules/ivy/functional/ivy/array_api/linear_algebra.html#eigvalsh"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.array_api.linear_algebra.eigvalsh" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the eigenvalues of a symmetric matrix (or a stack of symmetric matrices) x.
+:param x: input array having shape (…, M, M) and whose innermost two dimensions for square matrices.</p>
+<blockquote>
+<div><p>Must have floating-point data type.</p>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>an array containing the computed eigenvalues. The returned array must have shape (…, M) and 
+have the same data type as x.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
 <dt id="ivy.functional.ivy.array_api.linear_algebra.vector_norm">
 <code class="sig-prename descclassname">ivy.functional.ivy.array_api.linear_algebra.</code><code class="sig-name descname">vector_norm</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span><span class="p">:</span> <span class="n">Union<span class="p">[</span>ivy.array.Array<span class="p">, </span>ivy.NativeArray<span class="p">]</span></span></em>, <em class="sig-param"><span class="n">axis</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Union<span class="p">[</span>int<span class="p">, </span>Tuple<span class="p">[</span>int<span class="p">]</span><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">keepdims</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">ord</span><span class="p">:</span> <span class="n">Union[int, float, Literal[inf, - inf]]</span> <span class="o">=</span> <span class="default_value">2</span></em><span class="sig-paren">)</span> &#x2192; ivy.array.Array<a class="reference internal" href="../../../_modules/ivy/functional/ivy/array_api/linear_algebra.html#vector_norm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#ivy.functional.ivy.array_api.linear_algebra.vector_norm" title="Permalink to this definition">¶</a></dt>
 <dd><p>Computes the vector norm of a vector (or batch of vectors) <code class="docutils literal notranslate"><span class="pre">x</span></code>.</p>
@@ -271,11 +287,6 @@ Default: <code class="docutils literal notranslate"><span class="pre">2</span></
 </dd></dl>
 
 <div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Linear algebra</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="linear_algebra/vector_norm.html">vector_norm</a></li>
-<li class="toctree-l1"><a class="reference internal" href="linear_algebra/diagonal.html">diagonal</a></li>
-</ul>
 </div>
 </div>
 
