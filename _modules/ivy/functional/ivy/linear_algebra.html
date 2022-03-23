@@ -87,25 +87,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../../roadmap.html">Roadmap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../../contributing.html">Contributing</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Array</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/array_api.html">Array api</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/conversions.html">Conversions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/device.html">Device</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/general.html">General</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/gradients.html">Gradients</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/image.html">Image</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/linalg.html">Linalg</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/logic.html">Logic</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/math.html">Math</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/meta.html">Meta</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/random.html">Random</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../array/reductions.html">Reductions</a></li>
-</ul>
 <p class="caption"><span class="caption-text">Functional</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../functional/backends.html">Backends</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy.html">Ivy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/activations.html">Activations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/compilation.html">Compilation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/constants.html">Constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/creation.html">Creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/data_type.html">Data type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/device.html">Device</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/elementwise.html">Elementwise</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/general.html">General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/gradients.html">Gradients</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/image.html">Image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/linear_algebra.html">Linear algebra</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/losses.html">Losses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/manipulation.html">Manipulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/meta.html">Meta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/nest.html">Nest</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/norms.html">Norms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/random.html">Random</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/searching.html">Searching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/set.html">Set</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/statistical.html">Statistical</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../functional/ivy/utility.html">Utility</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Stateful</span></p>
 <ul>
@@ -533,7 +539,7 @@
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">_cur_framework</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">x</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="cholesky"><a class="viewcode-back" href="../../../../functional/ivy/linear_algebra/cholesky.html#ivy.functional.ivy.linear_algebra.cholesky">[docs]</a><span class="k">def</span> <span class="nf">cholesky</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">],</span>
+<div class="viewcode-block" id="cholesky"><a class="viewcode-back" href="../../../../functional/ivy/linear_algebra/cholesky.html#ivy.functional.ivy.linear_algebra.cholesky">[docs]</a><span class="k">def</span> <span class="nf">cholesky</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">ivy</span><span class="o">.</span><span class="n">NativeArray</span><span class="p">],</span> 
              <span class="n">upper</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Computes the cholesky decomposition of the x matrix.</span>
@@ -546,8 +552,8 @@
 <span class="sd">    :type upper: bool</span>
 <span class="sd">    :return out: an array containing the Cholesky factors for each square matrix.</span>
 <span class="sd">     If upper is False, the returned array must contain lower-triangular matrices; otherwise,</span>
-<span class="sd">      the returned array must contain upper-triangular matrices.</span>
-<span class="sd">      The returned array must have a floating-point data type determined by Type Promotion Rules</span>
+<span class="sd">      the returned array must contain upper-triangular matrices. </span>
+<span class="sd">      The returned array must have a floating-point data type determined by Type Promotion Rules </span>
 <span class="sd">      and must have the same shape as x.</span>
 <span class="sd">    :type out: array</span>
 <span class="sd">    &quot;&quot;&quot;</span>
